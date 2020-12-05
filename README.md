@@ -28,7 +28,8 @@
 
 # Acceptance Criteria
 ```
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+When the user loads the page, they should be given the option 
+to create a new workout or continue with their last workout.
 The user should be able to:
 
 
@@ -41,7 +42,10 @@ Add new exercises to a new workout plan.
 View the combined weight of multiple exercises on the stats page.
 
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+To deploy an application with a MongoDB database to Heroku, you'll 
+need to set up a MongoDB Atlas account and connect a database from 
+there to your application. Be sure to use the following guides for 
+support:
 
 
 Set Up MongoDB Atlas
@@ -54,7 +58,7 @@ Deploy with Heroku and MongoDB Atlas
 As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
 # Usage
-💻 Open [Heroku](https://workout-nosql.herokuapp.com/?id=5fcb9e4cab70ca0017ceafcc) link, click Add excercise, choose excercise type, enter the displayed items, and theb click "Add exercise" if you want to add an another exercise, or "complete." To check your record, click "Dashboard" right above of the page next to the"Fitness Tracker."
+💻 Open [Heroku](https://workout-nosql.herokuapp.com/?id=5fcb9e4cab70ca0017ceafcc) link, click Add excercise, choose excercise type, enter the displayed items, and then click "Add exercise" if you want to add an another exercise, or "complete." To check your record, click "Dashboard" right above of the page next to the"Fitness Tracker."
 To run this app via VS code, run <code>npm start</code>, and go http://localhost:3000.
 
 ![workout](public/images/workoutpage.jpg);
