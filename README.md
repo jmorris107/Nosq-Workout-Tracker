@@ -1,4 +1,4 @@
-# 🏋🏻‍♀️Nosq-Workout-Tracker🤸🏿‍♀️
+# 🏋🏻‍♀️Nosq Workout Tracker🤸🏿‍♀️
 
 
   ![node badge](https://img.shields.io/badge/node-v12.19.0-green.svg)
@@ -28,8 +28,7 @@
 
 # Acceptance Criteria
 ```
-When the user loads the page, they should be given the option 
-to create a new workout or continue with their last workout.
+When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
 The user should be able to:
 
 
@@ -42,10 +41,7 @@ Add new exercises to a new workout plan.
 View the combined weight of multiple exercises on the stats page.
 
 
-To deploy an application with a MongoDB database to Heroku, you'll 
-need to set up a MongoDB Atlas account and connect a database from 
-there to your application. Be sure to use the following guides for 
-support:
+To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
 
 
 Set Up MongoDB Atlas
