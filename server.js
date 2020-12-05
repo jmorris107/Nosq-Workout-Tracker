@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-var PORT = process.env || 3000
+var PORT = process.env.PORT || 3000
 
 const app = express();
 
