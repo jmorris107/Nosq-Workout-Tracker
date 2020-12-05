@@ -57,7 +57,7 @@ As a user, I want to be able to view create and track daily workouts. I want to 
 💻 Open [Heroku](https://workout-nosql.herokuapp.com/?id=5fcb9e4cab70ca0017ceafcc) link, click Add excercise, choose excercise type, enter the displayed items, and theb click "Add exercise" if you want to add an another exercise, or "complete." To check your record, click "Dashboard" right above of the page next to the"Fitness Tracker."
 To run this app via VS code, run <code>npm start</code>, and go http://localhost:3000.
 
-![burger](public/images/Workout.jpg) 
+![burger](public/images/workout.jpg) 
 
 # Installation
 🗳 <code>Node.js</code>,<code>npm install</code>,<code>npm install express</code>,<code> npm install start</code>,<code>npm install mongojs</code>,<code>npm install mongoose</code>,<code>npm install morgan</code>,/code>,<code>npm install watch</code>
