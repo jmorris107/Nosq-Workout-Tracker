@@ -35,7 +35,7 @@ require("./routes/htmlRoutes")(app);
 
 // Listen on port 3000
 app.listen(PORT, () => {
-  console.log(` http://localhost:${3000}`,);
+  console.log(` http://localhost:3000`,);
 });
 
 
