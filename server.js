@@ -14,13 +14,13 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-const databaseUrl = "workouts_db";
-const collections = ["workouts"];
+const databaseUrl = "workout_db";
+const collections = ["workout"];
 
 // mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/custommethoddb", { useNewUrlParser: true });
 // from MongoDB Atlas
 mongoose.connect(
-  process.env.MONGODB_URI || 'mongodb://localhost/deep-thoughts',
+  process.env.MONGODB_URI || 'mongodb://localhost/workout',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -29,21 +29,20 @@ mongoose.connect(
   }
 );
 
-
-// db.on("error", error => {
-//   console.log("Database Error:", error);
+// app.get("/", (req, res) => {
+//   res.send(index.html);
 // });
 
-app.get("/", (req, res) => {
-  res.send(index.html);
-});
-
-app.get("/exercise", (req, res) => {
-    res.sendFile(path.join(_dirname, "public/exercise.html"));
-  });
+// app.get("/exercise", (req, res) => {
+//     res.sendFile(path.join(_dirname, "public/exercise.html"));
+//   });
 
 // routes
 //GRT api/workouts
+
+//Creating Routes
+require("./routes/apiRoutes")(app);
+require("./routes/htmlRoutes")(app);
 
 // Listen on port 3000
 app.listen(3000, () => {
